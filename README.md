@@ -29,9 +29,9 @@ Switch(config)# vtp domain CORVIT
 Switch(config)# vtp mode server
 
 Verification:
-Switch# show interfaces trunk
+Switch# show interface trunk
 Switch# show vtp status
-
+  
 Files Included:
 - CCNP_Switching_Lab1.pkt — Packet Tracer topology
 - Switch1_Config.txt — Running config for Switch 1
@@ -42,10 +42,10 @@ Results:
 - Trunk ports successfully established
 - VTP domain correctly set
 - VLAN 1 active and forwarding
-- show interfaces trunk confirms trunking status
+- show interfaces trunk confirms the trunking status
 
 About This Project:
-This is part of my journey through CCNP Enterprise Switching (ENARSI). I'm using these labs to better understand VLANs, trunking, STP, and L3 switching using multilayer switches.
+This is part of my journey through the CCNP Enterprise Switching (ENARSI) certification. I'm using these labs to gain a deeper understanding of VLANs, trunking, STP, and L3 switching using multilayer switches.
 
 Next Lab Coming Soon:
 Inter-VLAN Routing with SVI Interfaces
@@ -53,5 +53,5 @@ Inter-VLAN Routing with SVI Interfaces
 Feel free to fork or clone this repo and use the labs in your own CCNP studies.
 
 Connect with Me:
-- LinkedIn: https://www.linkedin.com
-- Email: your.email@example.com
+- LinkedIn: https://www.linkedin.com/in/abdul-haseeb-20b9b1163/
+- Email: abdul.haseeb0283@gmail.com
